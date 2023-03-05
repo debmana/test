@@ -19,7 +19,7 @@ public class ApiRequest {
          request = HttpRequest.newBuilder()
          .uri(URI.create("https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/search?query="+search))
          .header("accept", "application/json")
-         .header("X-RapidAPI-Key", "c02be0e75fmsh0ea41574817f4fep17a3fdjsnd81489d5d99c")
+         .header("X-RapidAPI-Key", "Add you key here")
          .header("X-RapidAPI-Host", "matchilling-chuck-norris-jokes-v1.p.rapidapi.com")
          .method("GET", HttpRequest.BodyPublishers.noBody())
          .build();          
